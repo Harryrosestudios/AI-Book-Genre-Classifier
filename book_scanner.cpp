@@ -26,7 +26,7 @@ private:
     std::string genreFile = "genres.txt";
     std::vector<std::string> knownGenres;
     std::string hfApiUrl = "https://api-inference.huggingface.co/models/facebook/bart-large-mnli";
-    std::string hfApiKey = ""; // Hugging Face API Key goes here
+    std::string hfApiKey = "hf_YOUR_TOKEN_HERE"; // Hugging Face API Key goes here
     
 public:
     BookScanner() {
